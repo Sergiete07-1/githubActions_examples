@@ -1,11 +1,11 @@
 {
   "name": "githubactions_examples",
   "version": "1.0.0",
-  "description": "Servidor Node.js sencillo para probar super-linter con GitHub Actions",
+  "description": "Servidor Node.js sencillo para probar super-linter y Jest con GitHub Actions",
   "main": "server.js",
-  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "license": "MIT"
 }
